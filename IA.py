@@ -34,7 +34,7 @@ max_tokens = 60  # Defina o número desejado de tokens aqui
 def wait_for_activation():
     while True:
         user_input = recognize_speech()
-        if "Jarvis" in user_input:
+        if "RobIA" in user_input:
             text_to_speech("Estou à disposição, no que posso ajudar?")
             break
 
