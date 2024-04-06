@@ -5,7 +5,7 @@ from playsound import playsound
 import os
 
 # Sua chave de API da OpenAI
-openai.api_key = "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"
+openai.api_key = ""
 
 # Inicializa o reconhecedor de fala
 rec = sr.Recognizer()
