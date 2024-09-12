@@ -14,3 +14,28 @@ O principal objetivo deste TCC foi aplicar conceitos teóricos de eletrônica, p
 
 
 ![IMG_20231023_165749095](https://github.com/user-attachments/assets/0be42f41-39d4-43e4-902e-a8e1aa2539de)
+
+
+### Tecnologias e Ferramentas Utilizadas
+<b>Hardware:</b> Arduino, sensores ultrassônicos, motores DC, servomotores, câmera. </br>
+<b>Software:</b> Python, Visual Studio Code, IDE Arduino. </br>
+
+## Instruções de Configuração e Uso
+
+#### Configuração do Hardware:
+
+• Conecte os sensores e motores aos pinos especificados no código Arduino. </br>
+• Instale a câmera e conecte-a ao sistema de processamento.
+
+#### Instalação de Bibliotecas:
+
+• Instale as bibliotecas necessárias no Python usando pip:
+<pre>
+pip install opencv-python
+pip install pytorch  # ou tensorflow, dependendo da IA utilizada
+</pre>
+
+#### Execução do Projeto:
+
+• Faça o upload do código Arduino para a placa. </br>
+• Execute o script Python para iniciar a captura de vídeo e o processamento de IA.
