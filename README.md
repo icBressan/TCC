@@ -30,10 +30,10 @@ O principal objetivo deste TCC foi aplicar conceitos teóricos de eletrônica, p
 #### Instalação de Bibliotecas:
 
 • Instale as bibliotecas necessárias no Python usando pip:
-<pre>
+```
 pip install opencv-python
 pip install pytorch  # ou tensorflow, dependendo da IA utilizada
-</pre>
+```
 
 #### Execução do Projeto:
 
